@@ -1,0 +1,110 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="div" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E122" />
+          <option value="E127" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyProtectedMemberInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="PyQt5.QtWidgets.clicked.connect" />
+          <option value="PyQt5.QtWidgets.currentTextChanged.connect" />
+          <option value="PyQt5.QtWidgets.editingFinished.connect" />
+          <option value="PyQt5.QtCore.finished.connect" />
+          <option value="at_sea_validation.clams_val.models.Surveys.objects" />
+          <option value="at_sea_validation.clams_val.models.Ships.objects" />
+          <option value="at_sea_validation.clams_val.models.CCruises.objects" />
+          <option value="at_sea_validation.clams_val.models.Events.objects" />
+          <option value="at_sea_validation.clams_val.models.OperationValidations.objects" />
+          <option value="datetime.datetime.dt" />
+          <option value="streamlit.server.Server" />
+          <option value="streamlit.ReportThread" />
+          <option value="load_db.scs_to_db.views.plotly" />
+          <option value="load_db.functions.plotly" />
+          <option value="functions" />
+          <option value="load_db.load_db.urls.dashboard" />
+          <option value="load_db.load_db.urls.scs_to_db" />
+          <option value="load_db.load_db.urls.sbe_to_db" />
+          <option value="load_db.load_db.urls.age_to_db" />
+          <option value="load_db.load_db.urls.reports" />
+          <option value="load_db.reports.views.plotly" />
+          <option value="load_db.load_db.urls.clams_to_db" />
+          <option value="load_db.load_db.urls.nc_to_db" />
+          <option value="load_db.load_db.urls.stom_to_db" />
+          <option value="load_db.load_db.urls.biodata_to_db" />
+          <option value="load_db.load_db.urls.fin_to_pg" />
+          <option value="psycopg2" />
+          <option value="view_db.view_db.urls.dashboard" />
+          <option value="view_db.view_db.urls.view_db_contents" />
+          <option value="view_db.functions.geopy" />
+          <option value="pw_change.pw_change.urls.change" />
+          <option value="view_db.view_db.urls.view_scs" />
+          <option value="view_db.functions.plotly" />
+          <option value="load_db.load_db.urls.add_samples" />
+          <option value="frs_management.frs_management.urls.dashboard" />
+          <option value="frs_management.frs_management.urls.protocols" />
+          <option value="frs_management.frs_management.urls.organism_list" />
+          <option value="frs_management.frs_management.urls.backdeck" />
+          <option value="cruise_prep.views" />
+          <option value="cruise_prep.cruise_prep.urls.clams_prep" />
+          <option value="cruise_prep.clams_prep.views.clams_prep" />
+          <option value="cruise_prep.cruise_prep.urls.dashboard" />
+          <option value="cruise_prep.cruise_prep.urls.netconfig_prep" />
+          <option value="cruise_prep.cruise_prep.urls.oracle_prep" />
+          <option value="atseavalidation.atseavalidation.urls.dashboard" />
+          <option value="atseavalidation.atseavalidation.urls.clams_val" />
+          <option value="atseavalidation.atseavalidation.urls.nc_val" />
+          <option value="atseavalidation.atseavalidation.urls.reports" />
+          <option value="atseavalidation.atseavalidation.urls.scs_val" />
+          <option value="atseavalidation.atseavalidation.urls.sensor_val" />
+          <option value="atseavalidation.atseavalidation.urls.val_admin" />
+          <option value="onlandvalidation.onlandvalidation.urls.dashboard" />
+          <option value="onlandvalidation.onlandvalidation.urls.reports" />
+          <option value="onlandvalidation.onlandvalidation.urls.view_data" />
+          <option value="onlandvalidation.dashboard.models.CLuShip.objects" />
+          <option value="onlandvalidation.dashboard.models.CCruises.objects" />
+          <option value="onlandvalidation.dashboard.models.CCruiseMeasures.objects" />
+          <option value="onlandvalidation.dashboard.models.OOperation.objects" />
+          <option value="onlandvalidation.dashboard.models.OcOverrides.objects" />
+          <option value="onlandvalidation.dashboard.models.OOperationHeader.objects" />
+          <option value="onlandvalidation.dashboard.models.OOperationPerformance.objects" />
+          <option value="onlandvalidation.dashboard.models.OOperationEvent.objects" />
+          <option value="onlandvalidation.dashboard.models.OOperationEventMeasures.objects" />
+          <option value="onlandvalidation.dashboard.models.OcSamples.objects" />
+          <option value="onlandvalidation.dashboard.models.OcOperationWeights.objects" />
+          <option value="onlandvalidation.dashboard.models.OcSpecimens.objects" />
+          <option value="onlandvalidation.dashboard.models.OcMeasurements.objects" />
+          <option value="onlandvalidation.functions.dashboard" />
+          <option value="onlandvalidation.dashboard.models.CsSensorHeader.objects" />
+          <option value="onlandvalidation.dashboard.models.CsSensorMeasure.objects" />
+          <option value="onlandvalidation.reports.views.dashboard" />
+          <option value="settings" />
+          <option value="database_credentials" />
+          <option value="tuple.Index" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
